@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf23996600f64fb48a98aafda37fd2b2, type: 3}
+  m_Name: Pet Doctor Dream
+  m_EditorClassIdentifier: 
+  PuzzleGridSize: {x: 4, y: 4}
+  _puzzleCellSize: {x: 200, y: 200}
+  PuzzlePieces:
+  - {fileID: 801683564341087485, guid: 6fcaa15f7f1505343b5d7ae428bd8df0, type: 3}
+  - {fileID: 6720416668934486311, guid: 32fd86d02cf266442a7cbb0afff80a09, type: 3}
+  - {fileID: 928789734223791529, guid: db064445c1af0a6478f083cdf656a98d, type: 3}
+  - {fileID: 9178259619665773246, guid: 84ab43aa689f1f446a43ed7c4d61c3f2, type: 3}
+  - {fileID: 3596022319391095351, guid: 46477fe2c5286164ba47207dc1afae64, type: 3}
+  - {fileID: 5818851518543690364, guid: 2ce4b8d2ad45d5a4b9b139367c5504ab, type: 3}
+  - {fileID: 881060983577104547, guid: 0edb6cdbefc218746b732dee57214dc9, type: 3}
+  - {fileID: 5898151052407944671, guid: d41aca52f655cd94288b74e19a2502e1, type: 3}
+  - {fileID: 3551749142822113477, guid: 964fc510166b46b4eab32f43a05c2227, type: 3}
+  - {fileID: 699555123737009570, guid: e5270402b4b945b4fa2e3878febdba2c, type: 3}
+  - {fileID: 3768838053221325579, guid: 5e10d7ffc72bef546bfb62b39d9bed4b, type: 3}
+  - {fileID: 4369997592428788002, guid: 5a1d080f03b09734bad86b625710f2dd, type: 3}
+  - {fileID: 4138349405471339758, guid: 649fa87f9909f1e4aa69310dc384a30c, type: 3}
+  - {fileID: 6531981347679368023, guid: 23debb29f7302be42aaad374aeb1a856, type: 3}
+  - {fileID: 6102744263800397870, guid: ac57ae4a97dd57545ab2be4d8af34d87, type: 3}
+  - {fileID: 825840207608602002, guid: ddcb0cd40997e70468d02506c9ffc447, type: 3}

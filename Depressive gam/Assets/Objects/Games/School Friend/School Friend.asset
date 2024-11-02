@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf23996600f64fb48a98aafda37fd2b2, type: 3}
+  m_Name: School Friend
+  m_EditorClassIdentifier: 
+  PuzzleGridSize: {x: 4, y: 4}
+  _puzzleCellSize: {x: 200, y: 200}
+  PuzzlePieces:
+  - {fileID: 8356713339064606258, guid: 5bb2378b28911f743ace4f03598cd2e5, type: 3}
+  - {fileID: 2784100893338909916, guid: d1eedff2aad537847a1a8af7068526f0, type: 3}
+  - {fileID: 3938149297809302762, guid: 12b477db09cfd164494a6600483a6219, type: 3}
+  - {fileID: 4702582708567330383, guid: 545ca615a925a864a83bfc1e8313b4eb, type: 3}
+  - {fileID: 4983883835830559123, guid: 1f8aaa18899a3ba43b748b2ac740de67, type: 3}
+  - {fileID: 3715902254016487643, guid: cf10ffdbbfbe1ab45b8121b525a8edc9, type: 3}
+  - {fileID: 2599840748148868825, guid: 54900ed1b9b7cad469fbd13e65411798, type: 3}
+  - {fileID: 6979170735499953792, guid: c3c4331eac4f62c4087e30f5ab7e208d, type: 3}
+  - {fileID: 7271948034046552487, guid: 7588fe6420f36374d904831bc769b100, type: 3}
+  - {fileID: 6384938546111486206, guid: 5757fa5f2e95cb949b84393944da6aae, type: 3}
+  - {fileID: 2956469176560964809, guid: 6c7d386e53fc6d246bf1549567388755, type: 3}
+  - {fileID: 3850875263367540628, guid: 5df5d176b4913bb499a71bb9342b8309, type: 3}
+  - {fileID: 9042234097741028067, guid: 3fa082d0073f1954d95b55389e0a2127, type: 3}
+  - {fileID: 2779311918035009104, guid: 459a10b37225176449217f072411680a, type: 3}
+  - {fileID: 4379880503191879823, guid: 09922b33c96050f45acd1142a4654d19, type: 3}
+  - {fileID: 6322425155672380779, guid: 48ba2725be904bd409723d2ea0fece39, type: 3}

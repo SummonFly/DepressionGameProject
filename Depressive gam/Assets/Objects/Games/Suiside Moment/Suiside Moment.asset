@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf23996600f64fb48a98aafda37fd2b2, type: 3}
+  m_Name: Suiside Moment
+  m_EditorClassIdentifier: 
+  PuzzleGridSize: {x: 4, y: 4}
+  _puzzleCellSize: {x: 200, y: 200}
+  PuzzlePieces:
+  - {fileID: 3179176017205009569, guid: 0e43f0ca14bc2a843ad3eb3adeb9d95d, type: 3}
+  - {fileID: 4945608006515861400, guid: 3a75d802314777f43bc46ffecdf3de83, type: 3}
+  - {fileID: 2045104350552623116, guid: 559d32065c911594f81a72b44f4c8b23, type: 3}
+  - {fileID: 5807172560966143636, guid: d91373ab5b60ef742aa0c8fff981ddb9, type: 3}
+  - {fileID: 3690038870822864378, guid: 498814db61ec964488a4e94cb9a56b51, type: 3}
+  - {fileID: 7855900324001723985, guid: 43b4b2dd6920b4e44912559fdfdfdcc6, type: 3}
+  - {fileID: 1691994964386392670, guid: dbafaf4117c92ad459ce910fa77631e9, type: 3}
+  - {fileID: 8442473420384780440, guid: 019daf950f14cad4c9a8d082c9b7909b, type: 3}
+  - {fileID: 7045515950938344320, guid: 3b11a2a640c0e114b89f016ad61a0862, type: 3}
+  - {fileID: 5592872947805749875, guid: 34a0335716cdd1b4e89f2df8882de4d3, type: 3}
+  - {fileID: 5046270300115238472, guid: 916063e865f7dd2488ccf62f7043a198, type: 3}
+  - {fileID: 4556884784392836661, guid: 3cc2bdfe380ab754c8e47351ae85952a, type: 3}
+  - {fileID: 4840970835837496193, guid: 3e63c9f329e050f40b47bf893508ef0c, type: 3}
+  - {fileID: 4438337174357273257, guid: 556327a36c3eb774595fd12574f82fd8, type: 3}
+  - {fileID: 5723973470684255340, guid: 927e5d99f8105404c8c748df520ae0cf, type: 3}
+  - {fileID: 2533071294290540178, guid: c61cc4a905dd32340b334e75fc7664cb, type: 3}

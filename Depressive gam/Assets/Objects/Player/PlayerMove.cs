@@ -7,8 +7,9 @@ using UnityEngine.InputSystem;
 [RequireComponent (typeof(Animator))]
 public class CharacterController2D: MonoBehaviour
 {
-    [SerializeField] private LayerMask _groundLayer;
+    [SerializeField] public bool CanMove = true;
 
+    [SerializeField] private LayerMask _groundLayer;
     [SerializeField] private float _walkSpeed;
     [SerializeField] private float _runSpeed;
     [SerializeField] private float _croachSpeed;
@@ -17,7 +18,6 @@ public class CharacterController2D: MonoBehaviour
     private Rigidbody2D m_body;
     private CapsuleCollider2D m_collider;
     private Animator m_animator;
-
     private bool _isGrounded;
     private bool _facingRight;
     private bool _isRun = false;
@@ -85,7 +85,7 @@ public class CharacterController2D: MonoBehaviour
     void FixedUpdate()
     {
         UpdateGroundState();
-        if(_isGrounded)
+        if(_isGrounded && CanMove)
         {
             Move();
             Facing();
