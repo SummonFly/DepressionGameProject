@@ -14,5 +14,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Testing.unity
     guid: d113a88866e4c4c4f8b2134d126b0439
+  - enabled: 1
+    path: Assets/Scenes/City.unity
+    guid: e8868161a384f444f9697d6ac0e24efd
+  - enabled: 1
+    path: Assets/Scenes/Playground.unity
+    guid: 9a82bcac95d82c4419b085f39dc4f9a1
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 5d743443cd19a8d4c805afaf42116560, type: 3}
