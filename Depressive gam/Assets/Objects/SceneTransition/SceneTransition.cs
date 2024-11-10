@@ -15,9 +15,10 @@ public class SceneTransition : MonoBehaviour
 
     public static void SwitchToScene(string name)
     {
-        _instance._animator.SetTrigger("StartLoading");
         _instance._asyncTransition =  SceneManager.LoadSceneAsync(name);
         _instance._asyncTransition.allowSceneActivation = false;
+
+        _instance._animator.SetTrigger("StartLoading");
     }
 
     public void OnAnimationOver()
@@ -31,7 +32,7 @@ public class SceneTransition : MonoBehaviour
         if(_asyncTransition != null)
         {
             //Showing progress download
-            Debug.Log("Loading... " + _asyncTransition.progress + "%");
+            Debug.Log("Loading... " + _asyncTransition.progress + "% " + _asyncTransition.allowSceneActivation);
         }
     }
 
