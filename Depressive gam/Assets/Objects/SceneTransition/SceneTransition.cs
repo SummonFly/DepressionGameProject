@@ -15,6 +15,7 @@ public class SceneTransition : MonoBehaviour
 
     public static void SwitchToScene(string name)
     {
+        if (_instance._asyncTransition != null) return;
         _instance._asyncTransition =  SceneManager.LoadSceneAsync(name);
         _instance._asyncTransition.allowSceneActivation = false;
 
@@ -23,6 +24,7 @@ public class SceneTransition : MonoBehaviour
 
     public void OnAnimationOver()
     {
+        Debug.Log("Animation over");
         _shouldPlayEndLoadAnimation = true;
         _instance._asyncTransition.allowSceneActivation = true;
     }

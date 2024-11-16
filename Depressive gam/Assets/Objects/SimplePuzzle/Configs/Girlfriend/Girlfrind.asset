@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaae73965e9eea5429dbb1edd9f8306f, type: 3}
+  m_Name: Girlfrind
+  m_EditorClassIdentifier: 
+  Pieces:
+  - {fileID: 7155674021499971482, guid: 9f8ed7940be4f9f4cb167540dc452040, type: 3}
+  - {fileID: 6534248331276911431, guid: 3f5210ec3723df14cb5c7727ba96ae03, type: 3}
+  - {fileID: 3095536737393227422, guid: fb6b2d279ef4e5e4789b4e1dadd876fb, type: 3}
+  - {fileID: 5015511333344417335, guid: 55a0c306c2acd264a8d1fa1dd8545486, type: 3}
+  - {fileID: 8010417855688495051, guid: 81481c2a887b2024ea58c011f32e9c77, type: 3}
+  - {fileID: 8432247824428714523, guid: 0c0ba8bfc62e48740b2a922bfe980b1a, type: 3}
+  - {fileID: 5305975788672036136, guid: d5ed999a0b0bd6c41b1dfdeaf1c529b9, type: 3}
+  - {fileID: 3052349625847071801, guid: f27f05f25ab35a042b50dad1d7e496fa, type: 3}
+  - {fileID: 906480672138664280, guid: 19a4740922a7cad41b03e679dec25e2a, type: 3}
+  - {fileID: 4273038729588511955, guid: 3530d5422da175a49837b991b2ab1aee, type: 3}
+  - {fileID: 1937490416201552482, guid: b1c6009489ca7e543ad4ab0fd390cbe7, type: 3}

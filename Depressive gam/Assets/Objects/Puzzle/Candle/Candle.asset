@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf23996600f64fb48a98aafda37fd2b2, type: 3}
+  m_Name: Candle
+  m_EditorClassIdentifier: 
+  PuzzleGridSize: {x: 4, y: 4}
+  _puzzleCellSize: {x: 200, y: 200}
+  PuzzlePieces:
+  - {fileID: 2143548264741908357, guid: 43ee5a5792b40504f95d3969d6155a97, type: 3}
+  - {fileID: 1787442860893638793, guid: 3c319af9896d0b34a9b6558f192b870c, type: 3}
+  - {fileID: 6795896842832125108, guid: a11736c327b03a446ad7d332ee4adf10, type: 3}
+  - {fileID: 1372334459143711679, guid: 07ad143e9f5353548852c1d51ea9ea51, type: 3}
+  - {fileID: 2980199636754198453, guid: d14e7d15ac9db9f449b78996595dd6e8, type: 3}
+  - {fileID: 8600153169784502866, guid: 6d97360e4b82c7b4493cd38b03d327cf, type: 3}
+  - {fileID: 470530707904172684, guid: 658b9d33e2740e44b9ed5b4297c96eb7, type: 3}
+  - {fileID: 4138268834319211163, guid: c7f6467602ce28046b76bcda5dcdef03, type: 3}
+  - {fileID: 6671011064723472148, guid: 488548287c0c1474f845a5b312949776, type: 3}
+  - {fileID: 2315699084773096212, guid: 8dfc9d3645aacfd4fb4fcc9da91e4f8f, type: 3}
+  - {fileID: 8274757355864995100, guid: 15a982b3eae67ad42a6250284848b5cf, type: 3}
+  - {fileID: 456052194442247294, guid: 39cb90ae78404a643a1bb84e25a1aee9, type: 3}
+  - {fileID: 8471410153278201463, guid: 25d2fbc66816a5e49b3c9ee835b2b332, type: 3}
+  - {fileID: 6545359556251445108, guid: 61deab6f5cd692644aa5fc06a8596c27, type: 3}
+  - {fileID: 3378056656248638572, guid: d9d052d9cd586b84f9aaa3b751e851c3, type: 3}
+  - {fileID: 3517749160559576191, guid: f63f6fcba1fd1ef47ac5ebe373938ef8, type: 3}

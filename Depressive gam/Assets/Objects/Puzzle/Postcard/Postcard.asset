@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf23996600f64fb48a98aafda37fd2b2, type: 3}
+  m_Name: Postcard
+  m_EditorClassIdentifier: 
+  PuzzleGridSize: {x: 4, y: 4}
+  _puzzleCellSize: {x: 200, y: 200}
+  PuzzlePieces:
+  - {fileID: 6954178839681445553, guid: 16bde0bf8687b1941a35e7741bceebb3, type: 3}
+  - {fileID: 3481623166718582839, guid: 35a5674c24855d54b9d160ec6c000bc4, type: 3}
+  - {fileID: 3986815124763085427, guid: 592e3169add071a419159744a000038e, type: 3}
+  - {fileID: 5850483743243960498, guid: ed208593fd6c07a409449a96a94ef6fe, type: 3}
+  - {fileID: 8485574378867355545, guid: 055333606ceb04242b5e73fcd535a8c8, type: 3}
+  - {fileID: 2419738200864242661, guid: 55c57316292b98645a36d395f0f322e1, type: 3}
+  - {fileID: 7749065553704531845, guid: c26de435604e733498fb0fe6342255d4, type: 3}
+  - {fileID: 2713845960265013829, guid: 81ef7d71f6fabc34db141b7bcd4c2767, type: 3}
+  - {fileID: 7044069530669946589, guid: d01bbc89d2f98cd489477f7f04d02926, type: 3}
+  - {fileID: 1545887682884767507, guid: 5ce5e557c1c20134b8953916a7b70ff4, type: 3}
+  - {fileID: 2801831314548144997, guid: 224e0fc28a99b3b43b8aa0e753b5f00e, type: 3}
+  - {fileID: 8640098554025266042, guid: 9632fc07dc0c30b4782688ccde02a688, type: 3}
+  - {fileID: 613305029868888192, guid: cadf988274978e8428af8ece6154e2f1, type: 3}
+  - {fileID: 7036227195226002136, guid: f0e1067affcd17e4bae7c01613578678, type: 3}
+  - {fileID: 3955460696325143567, guid: 0c989c943809ca84590747df75a6e8d0, type: 3}
+  - {fileID: 4666684323898838963, guid: 39a647b0be12caa46b9b4b0864ae3700, type: 3}

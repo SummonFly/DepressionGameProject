@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaae73965e9eea5429dbb1edd9f8306f, type: 3}
+  m_Name: School Bad
+  m_EditorClassIdentifier: 
+  Pieces:
+  - {fileID: 4517667690398008963, guid: 54c0373e8e006b04b922b146a358a937, type: 3}
+  - {fileID: 4599717821153113645, guid: e324e0a062708f442b54771e26c66308, type: 3}
+  - {fileID: 3668516723650376719, guid: d8597d3a9a346374d9fcfd463a4866b2, type: 3}
+  - {fileID: 8326212039355050329, guid: f5858dd1c6f144945b44ca1b552f6747, type: 3}
+  - {fileID: 7606816228690932098, guid: 02f0c282d4729e645af790487cdd5152, type: 3}
+  - {fileID: 1862853650877933841, guid: 9e165a4b0872f654386ce3c835c65ced, type: 3}
+  - {fileID: 4088726916452433929, guid: ab85527a56fdbbb4c862de27d93e8954, type: 3}
+  - {fileID: 2710992314422488025, guid: 76695dfdea5efc74a909273b58216385, type: 3}
+  - {fileID: 8886385382960425776, guid: a6f383cfd2a455c44b1558ca74f21ee2, type: 3}
+  - {fileID: 7748458574405319988, guid: b98ce18d119cafa4bafbf0d54146a3e9, type: 3}

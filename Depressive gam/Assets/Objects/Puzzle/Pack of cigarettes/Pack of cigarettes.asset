@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf23996600f64fb48a98aafda37fd2b2, type: 3}
+  m_Name: Pack of cigarettes
+  m_EditorClassIdentifier: 
+  PuzzleGridSize: {x: 4, y: 4}
+  _puzzleCellSize: {x: 200, y: 200}
+  PuzzlePieces:
+  - {fileID: 6087900521603017728, guid: cfe70dc0fdc7f0b439882f74bb25a90d, type: 3}
+  - {fileID: 954562907187589842, guid: 1c764036f86768f4c8becb42c3c84c2b, type: 3}
+  - {fileID: 1205457108409156102, guid: 713db5a80e1f23e4eae2522cddbe85f0, type: 3}
+  - {fileID: 4283410513380179564, guid: b0f23dafec867434e800267dda586ad0, type: 3}
+  - {fileID: 6812120230762425045, guid: b0e2adc3003100f4dabda85c5ffc0c30, type: 3}
+  - {fileID: 8755654532146617580, guid: 8e7d3a5b3a46def4fb61624c01df453e, type: 3}
+  - {fileID: 5558198816701943733, guid: e99202a8b24e83146aa63bfec82c5ff8, type: 3}
+  - {fileID: 3503516190638111602, guid: 01bd8e86eb8f18e4f8ccc49d3d363e26, type: 3}
+  - {fileID: 6121180679992376851, guid: 1f4d72970c8986b40ad3eee84b0e8cbc, type: 3}
+  - {fileID: 8374915185756793409, guid: f789b504eb7ba7f48bb8d79683a428d5, type: 3}
+  - {fileID: 7167223615558563902, guid: 6db8324a64dffbf4a8ceed3c4c6417a7, type: 3}
+  - {fileID: 2626426305563519875, guid: c181112adbd5c2144a83dfaab955c850, type: 3}
+  - {fileID: 5656927819853860082, guid: 7fe1375ae5476bc44a62b273d771aec6, type: 3}
+  - {fileID: 7311722347129950561, guid: 47c905e1b75b35048975cfcfe5e72455, type: 3}
+  - {fileID: 4721597214817583649, guid: 67362bedba007e249828f52ea4ab48a6, type: 3}
+  - {fileID: 4511546753251373838, guid: 8247b643e38528145ac541979727b3a5, type: 3}

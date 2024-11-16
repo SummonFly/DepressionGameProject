@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaae73965e9eea5429dbb1edd9f8306f, type: 3}
+  m_Name: Boyfriend
+  m_EditorClassIdentifier: 
+  Pieces:
+  - {fileID: 2192883077233807096, guid: ab714bc21f4fa1c4b81c0232ba57d614, type: 3}
+  - {fileID: 3797913512561618494, guid: a7d10da40b07fbe4db37c4cb3e553bbd, type: 3}
+  - {fileID: 816446048807336627, guid: 1630bcfb9768ea44a96c68918cf9d825, type: 3}
+  - {fileID: 737359869994386463, guid: be38067f8b47b2348ad01474b09384c8, type: 3}
+  - {fileID: 7752325802642865132, guid: a8e91029fba418e48b85b90976287b3c, type: 3}
+  - {fileID: 3893941004829698052, guid: ef1f8b57a10615f459aa4b2bd097bd73, type: 3}
+  - {fileID: 173411523867142449, guid: a3380d38ab6860d45b0aac723e09444a, type: 3}
+  - {fileID: 7131574383590870168, guid: 0a25389c60c709e4983142a673ef0078, type: 3}
+  - {fileID: 6139934933013958185, guid: 36de9c0ca828e0c409655026ded9b48f, type: 3}
+  - {fileID: 8428953157587776023, guid: 991ae19cb93feed49b523d3055b26a56, type: 3}
+  - {fileID: 715993163540449631, guid: 610047ca829b27b4ca05b206ab090a26, type: 3}
+  - {fileID: 3137279029408215602, guid: ad6cf2649517415418b49320ed1a31d5, type: 3}
+  - {fileID: 4533743128577132290, guid: 3788c5611bb8f244b8d7622ea439bfa1, type: 3}
+  - {fileID: 842636297822864317, guid: 41cbfdeaa8ba1e740bc96bb00b276ab7, type: 3}
+  - {fileID: 1446848129161129083, guid: d99bbc561664e5e49b5ae421cad1d407, type: 3}
+  - {fileID: 4642729022436564710, guid: b65dce58d5bd1a6428e1081584cbf7fa, type: 3}
+  - {fileID: 4847617653579916816, guid: a14c8442de735aa4abeab8242d89832d, type: 3}

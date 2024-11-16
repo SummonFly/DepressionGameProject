@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaae73965e9eea5429dbb1edd9f8306f, type: 3}
+  m_Name: Good School
+  m_EditorClassIdentifier: 
+  Pieces:
+  - {fileID: -3874880290740568693, guid: 825765558dfacf14f8489f5f1abaf719, type: 3}
+  - {fileID: -7107226384032718191, guid: 11127d88ed429a144978055c3864d285, type: 3}
+  - {fileID: 2275805695828179030, guid: da4c774fbc09f624a8f5b7db2bdd59e3, type: 3}
+  - {fileID: -8716559336525761980, guid: 4fd6b409fa0b22548abeb0ae6a424ca0, type: 3}
+  - {fileID: -8140116788772515389, guid: d78bdf628d86c3745b9c6b2a966f9add, type: 3}
+  - {fileID: 9143695909924042840, guid: 33a52dd6364b3ad41892c9547c96662a, type: 3}
+  - {fileID: 5390307559414987191, guid: f64ced150eb923848801c9f3eb7e0f74, type: 3}

@@ -19,10 +19,21 @@ public class CameraFollow : MonoBehaviour
     {
         _camera = GetComponent<Camera>();
 
+        SetCameraBounce(_rectBounce);
+    }
+
+    public void SetCameraBounce(SpriteRenderer rectBounce)
+    {
+        if (rectBounce == null) return;
+        var targetPosition = new Vector3(_target.position.x, transform.position.y, transform.position.z);
+        transform.position = targetPosition;
+
+        _rectBounce = rectBounce;
         _rectMinX = _rectBounce.transform.position.x - _rectBounce.bounds.size.x / 2f;
         _rectMinY = _rectBounce.transform.position.y - _rectBounce.bounds.size.y / 2f;
         _rectMaxX = _rectBounce.transform.position.x + _rectBounce.bounds.size.x / 2f;
         _rectMaxY = _rectBounce.transform.position.y + _rectBounce.bounds.size.y / 2f;
+        transform.position = ClampInBounce(targetPosition);
     }
 
     private Vector3 ClampInBounce(Vector3 position)

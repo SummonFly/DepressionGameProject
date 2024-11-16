@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaae73965e9eea5429dbb1edd9f8306f, type: 3}
+  m_Name: Bathroom
+  m_EditorClassIdentifier: 
+  Pieces:
+  - {fileID: 2047769514007431620, guid: 7e3f2856f748b1643814838c61583daf, type: 3}
+  - {fileID: 4332013527404749277, guid: 182d0749197c97b499a08d749a0635ab, type: 3}
+  - {fileID: 870868525755854910, guid: 37f2fbbd238052345abea29f0983bb9a, type: 3}
+  - {fileID: 8483947755645343329, guid: 35ce0a8e65afb3641a6fb09d4d6db35e, type: 3}
+  - {fileID: 5821617269016526747, guid: 0352ed86708becc4fb59c42738ed8645, type: 3}
+  - {fileID: 3212095507735204059, guid: 386d3e33bb9f1804ebe5a04cf53173fd, type: 3}
+  - {fileID: 8741384323280757252, guid: 925182e31c28d7747939fda827877cad, type: 3}
+  - {fileID: 1464163887930340639, guid: 49c8bcbe60a2e9f499dc0f1dfaac0746, type: 3}
+  - {fileID: 4492854693709597297, guid: 2f4d85a5f827bba499516b2a661ec031, type: 3}
+  - {fileID: 82730807693366073, guid: 2c794c29fba1f2a4da7f5213c4dbc40a, type: 3}
+  - {fileID: 4028896337803603929, guid: 776c22fa7d3c8084ab52f62399b8335b, type: 3}
+  - {fileID: 2935720668585732177, guid: b1e7e99f74fbbe04a9330eb6526ca9a1, type: 3}
+  - {fileID: 5189274497553892378, guid: 722f324425c7587449287e4fc9db761e, type: 3}
+  - {fileID: 2375995499050378177, guid: 265de976fe8a08a4e820499ae9f89d98, type: 3}
+  - {fileID: 1118261364714065698, guid: 643d1634a3ba0fb41bf43cbfbccd335e, type: 3}
+  - {fileID: 5183125642335402468, guid: 747b6a9872f74c04a832dd1712fe6730, type: 3}
+  - {fileID: 6358192723651900709, guid: fd2b143797f1c94489546e688ef07998, type: 3}

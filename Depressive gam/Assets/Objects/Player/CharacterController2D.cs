@@ -12,8 +12,6 @@ public class CharacterController2D: MonoBehaviour
     [SerializeField] private LayerMask _groundLayer;
     [SerializeField] private float _walkSpeed;
     [SerializeField] private float _runSpeed;
-    [SerializeField] private float _croachSpeed;
-    [SerializeField] private float _jumpFoce;
 
     private Rigidbody2D m_body;
     private CapsuleCollider2D m_collider;
@@ -21,7 +19,6 @@ public class CharacterController2D: MonoBehaviour
     private bool _isGrounded;
     private bool _facingRight;
     private bool _isRun = false;
-    private bool _doJump = false;
     private Vector2 _moveDirection = Vector2.zero;
 
     void Start()
@@ -39,19 +36,13 @@ public class CharacterController2D: MonoBehaviour
 
     public void OnMove(InputAction.CallbackContext context) => _moveDirection = context.ReadValue<Vector2>();
     public void OnRun(InputAction.CallbackContext context) => _isRun = context.ReadValue<float>() == 0? false:true;
-    public void OnJump(InputAction.CallbackContext context) => _doJump = context.ReadValue<float>() == 0 ? false : true;
-
+    
     private void Move()
     {
         var speed = _isRun?_runSpeed:_walkSpeed;
         m_animator.SetBool("Run", _isRun);
 
         var verticalVellosity = m_body.velocity.y;
-        if(_doJump)
-        {
-            verticalVellosity = _jumpFoce;
-            _doJump = false;
-        }
 
         m_body.velocity = new Vector2(_moveDirection.x * speed, verticalVellosity);
 
