@@ -23,7 +23,6 @@ public class Interacteable : MonoBehaviour
         if (intaract)
         {
             _onInteract?.Invoke();
-            Debug.Log("Interact");
         }
     }
 

@@ -14,6 +14,12 @@ public class Puzzle : MonoBehaviour
 
     private Vector2 _translate => Vector2.Scale(_config.PuzzleGridSize, _config._puzzleCellSize)/2f * -1f + _config._puzzleCellSize/2f;
     private Dictionary<PuzzlePiece, Vector2> _puzzleCurrentPosition = new();
+    private UnityAction _initSolveTask;
+
+    public void SetInitSolveTask(QuestItem item)
+    {
+        _initSolveTask = item.Collect;
+    }
 
     public void SetPuzzleConfig(PuzzleConfig config)
     {
@@ -70,6 +76,7 @@ public class Puzzle : MonoBehaviour
         }
         if(solved)
         {
+            _initSolveTask();
             OnPuzzleSolved?.Invoke();
         }
     }
@@ -115,14 +122,14 @@ public class Puzzle : MonoBehaviour
 
     private void SetPuzzlePiecePosition(PuzzlePiece piece, Vector2 position)
     {
-        Debug.Log("SetPuzzlePiecePosition попытка");
+        //Debug.Log("SetPuzzlePiecePosition попытка");
         if (piece == null) return;
         if (position.y < 0 || position.x < 0 || position.y >= _config.PuzzleGridSize.y || position.x >= _config.PuzzleGridSize.x)
             return;
 
         _puzzleCurrentPosition[piece] = position;
         piece.gameObject.transform.localPosition = Vector2.Scale(_config._puzzleCellSize, position) + _translate;
-        Debug.Log($"SetPuzzlePiecePosition {position.x} {position.y}");
+        //Debug.Log($"SetPuzzlePiecePosition {position.x} {position.y}");
     }
 
     private void Start()

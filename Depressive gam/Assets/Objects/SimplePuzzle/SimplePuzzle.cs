@@ -14,7 +14,12 @@ public class SimplePuzzle : MonoBehaviour
 
     private bool _isPuzzleSolved = false;
     private List<SimplePieceRoot> _roots = new();
+    private  UnityAction _initSolveTask;
 
+    public void SetInitSolveTask(QuestItem item)
+    {
+        _initSolveTask = item.Collect;
+    }
 
     public void SetPuzzleConfig(SimplePuzzleConfig config)
     {
@@ -44,6 +49,7 @@ public class SimplePuzzle : MonoBehaviour
         }
         if (solved && !_isPuzzleSolved)
         {
+            _initSolveTask();
             OnPuzzleSolved?.Invoke();
         }
         _isPuzzleSolved = solved;

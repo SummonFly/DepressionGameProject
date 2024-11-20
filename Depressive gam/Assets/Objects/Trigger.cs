@@ -12,4 +12,11 @@ public class Trigger : MonoBehaviour
             OnColision?.Invoke();
         }
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.TryGetComponent(out CharacterController2D controller))
+        {
+            OnColision?.Invoke();
+        }
+    }
 }

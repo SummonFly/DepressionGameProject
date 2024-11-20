@@ -130,7 +130,7 @@
                     "id": "a5e54557-aee9-4e54-b99f-99fba96b384f",
                     "expectedControlType": "",
                     "processors": "",
-                    "interactions": "",
+                    "interactions": "Press",
                     "initialStateCheck": false
                 }
             ],
@@ -172,7 +172,7 @@
                     "name": "",
                     "id": "a686acb8-018e-4f6a-ba53-334d38611cff",
                     "path": "<Keyboard>/space",
-                    "interactions": "",
+                    "interactions": "Press",
                     "processors": "",
                     "groups": "",
                     "action": "Skip",

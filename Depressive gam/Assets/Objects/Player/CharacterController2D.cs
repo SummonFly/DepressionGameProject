@@ -5,6 +5,7 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(CapsuleCollider2D))]
 [RequireComponent (typeof(Animator))]
+[RequireComponent(typeof(AudioSource))]
 public class CharacterController2D: MonoBehaviour
 {
     [SerializeField] public bool _canMove = true;
@@ -16,6 +17,7 @@ public class CharacterController2D: MonoBehaviour
     private Rigidbody2D m_body;
     private CapsuleCollider2D m_collider;
     private Animator m_animator;
+    private AudioSource m_audioSource;
     private bool _isGrounded;
     private bool _facingRight;
     private bool _isRun = false;
@@ -25,6 +27,7 @@ public class CharacterController2D: MonoBehaviour
     {
         m_body = GetComponent<Rigidbody2D>();
         m_collider = GetComponent<CapsuleCollider2D>();
+        m_audioSource = GetComponent<AudioSource>();
         _facingRight = transform.localScale.x > 0f;
         m_animator = GetComponent<Animator>();
     }
@@ -40,7 +43,7 @@ public class CharacterController2D: MonoBehaviour
     private void Move()
     {
         var speed = _isRun?_runSpeed:_walkSpeed;
-        m_animator.SetBool("Run", _isRun);
+        
 
         var verticalVellosity = m_body.velocity.y;
 
@@ -55,7 +58,21 @@ public class CharacterController2D: MonoBehaviour
             _facingRight=false;
         }
 
-        m_animator.SetBool("Walk", Mathf.Abs(m_body.velocity.x) >= 0.2f && _isGrounded);
+        var isMove = Mathf.Abs(m_body.velocity.x) >= 0.2f;
+        m_animator.SetBool("Run", isMove &&  _isRun);
+        m_animator.SetBool("Walk", isMove && _isGrounded);
+
+        if(isMove)
+        {
+            if(!m_audioSource.isPlaying)
+            {
+                m_audioSource.Play();
+            }
+        }
+        else
+        {
+            m_audioSource.Pause();
+        }
     }
 
     private void Facing()
