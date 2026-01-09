@@ -1,8 +1,12 @@
-# Depression: A Path to Light
+# Abyss of Despair
 
-**Depression: A Path to Light** — это 2D-нарративная игра, созданная в Unity, которая исследует тему психического здоровья через метафоры, головоломки и атмосферное повествование. Игрок помогает главному герою пройти через сложный эмоциональный период, решая пазлы и взаимодействуя с окружением, шаг за шагом находя путь к внутреннему свету.
+**Abyss of Despair** — это 2D-нарративная игра, созданная в Unity, которая исследует тему психического здоровья через метафоры, головоломки и атмосферное повествование. Игрок помогает главному герою пройти через сложный эмоциональный период, решая пазлы и взаимодействуя с окружением, шаг за шагом находя путь к внутреннему свету.
 
 > *Это командный учебный проект, выполненный в рамках образовательной программы.*
+
+
+Внимание
+> *Этота игра находиться в разработке и доступна только сырая версия*
 
 ---
 
@@ -48,6 +52,22 @@
 
 
 **Примечание:** Основная игровая логика на C# располагается в соответствующих папках рядом с префабами и сценами.
+
+---
+## Скриншоты
+Главное меню
+<img width="1913" height="1075" alt="image" src="https://github.com/user-attachments/assets/99e6add2-05f0-4eb9-af37-5329df56cd9a" />
+
+Кадр из кат сцены
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/4cf61b28-b116-4fc5-9534-88128ce62c34" />
+
+Геймплей
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/902d97b9-5059-40a2-ab31-97e0069c2529" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/29142c64-23b6-4dba-b6ff-6bd0870acfa0" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/e170ef04-183a-4373-bc90-7b505419b004" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/9dc8d3ab-6764-4dbb-bbc6-0956078d38e8" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/e548915a-994a-49ee-8dce-d54494ce5b73" />
+
 
 ---
 
